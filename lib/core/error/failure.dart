@@ -7,6 +7,6 @@ class Failure extends Equatable {
   List<Object?> get props => [properties];
 }
 
-class ServerException extends Failure {}
+class ServerFailure extends Failure {}
 
-class CachingException extends Failure {}
+class CachingFailure extends Failure {}
